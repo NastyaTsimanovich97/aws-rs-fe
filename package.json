@@ -11,7 +11,7 @@
     "test:coverage": "vitest run --coverage",
     "lint": "eslint --ignore-path .gitignore --fix src",
     "prettier": "prettier src --write",
-    "hosting": "npm run build && cd ../aws-rs-be && cdk bootstrap --region=eu-west-1 && cdk deploy --region=eu-west-1 --require-approval=never"
+    "hosting": "npm run build && cd ../aws-rs-be && cdk bootstrap --region=eu-west-1 && cdk deploy TsimanovichAWSRS --region=eu-west-1 --require-approval=never"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
